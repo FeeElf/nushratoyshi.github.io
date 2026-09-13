@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    font-family: Georgia /* Helvetica, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     color: #333333;
     background-color: #ffffff;
     line-height: 1.7;
@@ -29,7 +29,7 @@ a:hover {
 }
 
 
-/* Shared content width */
+/* Main content width */
 
 .header-container,
 .home-container,
@@ -55,7 +55,7 @@ header {
 
 .header-container {
     min-height: 68px;
-    padding: 16px 0;
+    padding: 17px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,7 +127,7 @@ nav a:hover {
 .intro-area h1 {
     margin: 0 0 8px;
     color: #222222;
-    font-family: Georgia; /*"Times New Roman", serif;*/
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 42px;
     font-weight: 500;
     line-height: 1.2;
@@ -145,6 +145,7 @@ nav a:hover {
     margin: 0 0 18px;
     color: #555555;
     font-size: 15px;
+    line-height: 1.75;
 }
 
 
@@ -163,7 +164,7 @@ nav a:hover {
 }
 
 
-/* General content */
+/* General content sections */
 
 .content-section {
     padding: 60px 0;
@@ -174,24 +175,47 @@ nav a:hover {
     padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
     color: #222222;
-    font-family: Georgia; /* "Times New Roman", serif; */
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 29px;
     font-weight: 500;
     line-height: 1.3;
 }
 
+
+/* Standard paragraphs */
+
 .content-container p {
-    max-width: 850px;
+    max-width: 900px;
+    margin: 0 0 22px;
     color: #555555;
     font-size: 15px;
     line-height: 1.8;
 }
 
 
+/* About section */
+
+.about-text {
+    max-width: 900px;
+}
+
+.about-text p {
+    margin: 0 0 22px;
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+
 /* Lists */
 
 .content-container ul {
-    max-width: 850px;
+    max-width: 900px;
     padding-left: 22px;
 }
 
@@ -199,6 +223,7 @@ nav a:hover {
     margin-bottom: 8px;
     color: #555555;
     font-size: 15px;
+    line-height: 1.7;
 }
 
 
@@ -223,6 +248,13 @@ nav a:hover {
     line-height: 1.45;
 }
 
+.research-project p {
+    margin: 6px 0;
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
 .status {
     margin: 0 0 12px !important;
     color: #777777 !important;
@@ -231,7 +263,7 @@ nav a:hover {
 }
 
 .keywords {
-    margin-top: 15px;
+    margin-top: 15px !important;
     color: #777777 !important;
     font-size: 13px !important;
 }
@@ -267,7 +299,9 @@ nav a:hover {
 
 .publication p {
     margin: 6px 0;
+    color: #555555;
     font-size: 14px;
+    line-height: 1.7;
 }
 
 
@@ -289,11 +323,14 @@ nav a:hover {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 21px;
     font-weight: 500;
+    line-height: 1.45;
 }
 
 .experience-item p {
     margin: 5px 0;
+    color: #555555;
     font-size: 14px;
+    line-height: 1.7;
 }
 
 
@@ -310,11 +347,14 @@ nav a:hover {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 21px;
     font-weight: 500;
+    line-height: 1.45;
 }
 
 .education-item p {
     margin: 5px 0;
+    color: #555555;
     font-size: 14px;
+    line-height: 1.7;
 }
 
 
@@ -439,7 +479,15 @@ footer {
 
 
     .content-container p,
-    .content-container li,
+    .about-text p,
+    .content-container li {
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 1.75;
+        text-align: left;
+    }
+
+
     .research-project,
     .publication,
     .experience-item,
