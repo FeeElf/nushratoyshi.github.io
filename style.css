@@ -10,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    font-family: Georgia /* Arial, Helvetica, sans-serif; */
+    font-family: Georgia; /* Arial, Helvetica, sans-serif; */
     color: #333333;
     background-color: #ffffff;
     line-height: 1.7;
@@ -127,7 +127,7 @@ nav a:hover {
 .intro-area h1 {
     margin: 0 0 8px;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif; */
+    font-family: Georgia; /*, "Times New Roman", serif; */
     font-size: 42px;
     font-weight: 500;
     line-height: 1.2;
@@ -175,7 +175,7 @@ nav a:hover {
     padding-bottom: 10px;
     border-bottom: 1px solid #dddddd;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif; */
+    font-family: Georgia; /*, "Times New Roman", serif; */
     font-size: 29px;
     font-weight: 500;
     line-height: 1.3;
@@ -242,7 +242,7 @@ nav a:hover {
 .research-project h3 {
     margin: 0 0 8px;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif;*/
+    font-family: Georgia; /*, "Times New Roman", serif;*/
     font-size: 21px;
     font-weight: 500;
     line-height: 1.45;
@@ -291,7 +291,7 @@ nav a:hover {
 .publication h3 {
     margin: 0 0 8px;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif; */
+    font-family: Georgia; /*, "Times New Roman", serif; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.45;
@@ -320,7 +320,7 @@ nav a:hover {
 .experience-item h3 {
     margin: 0 0 3px;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif; */
+    font-family: Georgia; /*, "Times New Roman", serif; */
     font-size: 21px;
     font-weight: 500;
     line-height: 1.45;
@@ -344,7 +344,7 @@ nav a:hover {
 .education-item h3 {
     margin: 0 0 5px;
     color: #222222;
-    font-family: Georgia /*, "Times New Roman", serif; */
+    font-family: Georgia; /*, "Times New Roman", serif; */
     font-size: 21px;
     font-weight: 500;
     line-height: 1.45;
